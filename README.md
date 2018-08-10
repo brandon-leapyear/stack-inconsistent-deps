@@ -31,4 +31,5 @@ This setup works when all of the packages are in the `packages` list in
 ## Reproduce
 
 1. Clone this repo
-1. `stack build --only-dependencies`
+1. `stack build --only-dependencies --stack-yaml stack-broken.yaml` should error
+1. `stack build --only-dependencies --stack-yaml stack-works.yaml` should exit cleanly
