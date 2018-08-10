@@ -1,0 +1,9 @@
+resolver: lts-12.2
+
+packages:
+- foo
+- custom-setup-pkg
+- prelude-pkg
+
+extra-deps:
+- bar

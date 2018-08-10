@@ -1,0 +1,27 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c1906cfede4f9113e3308ad4afd633d11d489bd41836493c35249da3b43c07bb
+
+name:           bar
+version:        1
+build-type:     Custom
+cabal-version:  >= 1.24
+
+custom-setup
+  setup-depends:
+      Cabal
+    , base
+    , custom-setup-pkg
+
+library
+  exposed-modules:
+      Bar
+  other-modules:
+      Paths_bar
+  hs-source-dirs:
+      ./.
+  build-depends:
+      base
+  default-language: Haskell2010

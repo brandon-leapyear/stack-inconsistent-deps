@@ -1,0 +1,6 @@
+name: prelude-pkg
+version: 1
+
+library:
+  dependencies:
+    - base

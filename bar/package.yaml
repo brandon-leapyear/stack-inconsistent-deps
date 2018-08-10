@@ -1,0 +1,13 @@
+name: bar
+version: 1
+
+custom-setup:
+  dependencies:
+    - base
+    - Cabal
+    - custom-setup-pkg
+
+library:
+  source-dirs: .
+  dependencies:
+    - base

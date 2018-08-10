@@ -1,0 +1,7 @@
+name: custom-setup-pkg
+version: 1
+
+library:
+  dependencies:
+    - base
+    - prelude-pkg
